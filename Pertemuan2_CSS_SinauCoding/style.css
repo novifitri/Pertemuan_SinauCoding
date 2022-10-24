@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;900&display=swap");
+
+body {
+  text-align: center;
+  margin: 0;
+}
+
+.html {
+  background: #ffa07a url(./img/html.svg) left/180px repeat-y;
+}
+
+.css {
+  background: #add8e6 url(./img/css3.svg) right/180px repeat-y;
+}
+.js {
+  background: #fafad2 url(./img/js.svg) left/150px repeat-y;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+}
+.html .title {
+  color: #ff4500;
+}
+
+.css .title {
+  color: #3b84fa;
+}
+
+.js .title {
+  color: #e4d47b;
+}
+.konten {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+}
+
+img {
+  width: 150px;
+}
+
+a {
+  color: black;
+  font-weight: 900;
+}
